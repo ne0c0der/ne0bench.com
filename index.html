@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ne0bench — by jogobytes</title>
+<meta name="description" content="ne0bench is an open-source benchmark for small AI models on real consumer hardware. Launching soon.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style>
+  body { background: #0a0b09; }
+  .accent { color: #a8e6b0; }
+  .pulse-dot { animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .pulse-dot { animation: none; }
+  }
+</style>
+</head>
+<body class="text-neutral-100 antialiased">
+<main class="max-w-3xl mx-auto px-6">
+  <section class="pt-28 pb-16 md:pt-40 md:pb-20">
+    <p class="text-sm font-mono text-neutral-500 mb-6">by <span class="accent">jogobytes</span></p>
+    <h1 class="text-6xl md:text-8xl font-bold tracking-tight">ne0bench</h1>
+    <p class="mt-6 text-xl md:text-2xl text-neutral-400 max-w-xl leading-relaxed">
+      An open-source benchmark for small AI models on
+      <span class="accent">real consumer hardware</span>.
+    </p>
+    <p class="mt-8 text-sm font-mono text-neutral-500">
+      <span class="pulse-dot accent inline-block">&#9679;</span>
+      &nbsp;launching soon
+    </p>
+  </section>
+  <footer class="py-12 border-t border-neutral-800 flex items-center justify-between text-sm text-neutral-600">
+    <p>&copy; 2026 ne0bench</p>
+    <p>Detroit, Michigan</p>
+  </footer>
+</main>
+</body>
+</html>
